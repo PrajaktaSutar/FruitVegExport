@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:100,300,300i,500,700,900|Vidaloka");
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700|Roboto+Slab:300,400,700');
 /**
 *** Table Of Contents
 *
@@ -1722,8 +1722,8 @@ html {
 }
 
 body {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
 	font-weight: 300;
 	line-height: 24px;
 	background-color: #ccc;
@@ -1773,7 +1773,7 @@ h6:first-child {
 }
 
 p {
-	margin-bottom: 15px;
+	margin-bottom: 15px; line-height: 28px;
 }
 
 p:last-child {
@@ -10205,7 +10205,8 @@ body.active-side-header.slide-right .page_header_side {
 /* template parallax sections */
 @media (min-width: 992px) {
 	.page_about.background_cover {
-		background-image: url(../img/parallax/about.jpg);
+		background-image: url(../New_Img/veggie-about.jpg);
+		    background-size: contain;
 	}
 }
 
@@ -10590,12 +10591,12 @@ section .intro_section .slide_description_wrapper {
 ** Main Menu styles
 */
 .sf-menu a {
-	font-size: 14px;
-	text-transform: uppercase;
+	font-size: 16px;
+	
 }
 
 .sf-menu > li > a {
-	font-weight: 500;
+	font-weight: 400;
 }
 
 /* Desktop menu - (min 992px) styles */
